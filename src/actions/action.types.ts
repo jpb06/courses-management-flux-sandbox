@@ -1,0 +1,15 @@
+enum ActionTypes {
+  STARTED_LOADING,
+
+  CREATE_COURSE,
+  UPDATE_COURSE,
+  DELETE_COURSE,
+  LOAD_COURSES,
+
+  CREATE_AUTHOR,
+  UPDATE_AUTHOR,
+  DELETE_AUTHOR,
+  LOAD_AUTHORS
+}
+
+export default ActionTypes;
